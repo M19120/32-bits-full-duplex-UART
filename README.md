@@ -20,5 +20,6 @@ Dentro del bloque -com_32bit- se tiene una memoria de solo lectura(ROM) en la cu
 En la imagen de arriba se observan los elementos lógicos utilizados dentro del reporte de área. 
 
 ![image](https://github.com/M19120/32-bits-full-duplex-UART/assets/77844733/d6b74d90-8383-4d9e-91f5-a4b9bfc4cb86)
- También se observan los reportes de tiempo, el peor de los casos, es para un tiempo de 5.070 ns, no podremos trabajar nuestro circuito a una velocidad mayor. 
+
+También se observan los reportes de tiempo, el peor de los casos, es para un tiempo de 5.070 ns, no podremos trabajar nuestro circuito a una velocidad mayor. 
  
