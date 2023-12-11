@@ -1,0 +1,16 @@
+
+State Machine - |com_32bit|tx_32bit:u2|state
+Name state.clean state.tx_stop_bits state.tx_databits state.tx_start state.tx_idle 
+state.tx_idle 0 0 0 0 0 
+state.tx_start 0 0 0 1 1 
+state.tx_databits 0 0 1 0 1 
+state.tx_stop_bits 0 1 0 0 1 
+state.clean 1 0 0 0 1 
+
+State Machine - |com_32bit|rx_32bit:u1|state
+Name state.stop state.rx_databits state.almacen state.start state.rx_idle 
+state.rx_idle 0 0 0 0 0 
+state.start 0 0 0 1 1 
+state.almacen 0 0 1 0 1 
+state.rx_databits 0 1 0 0 1 
+state.stop 1 0 0 0 1 

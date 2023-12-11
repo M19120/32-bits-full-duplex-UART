@@ -1,0 +1,35 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/proyectosQuartus/UART/32bits_com_fullduplex/simulation/modelsim
+Ecom_32bit
+w1702141340
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+8D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd
+FD:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd
+l0
+L6 1
+VMCNeNGl:G=7n1W3`6B4Xk2
+!s100 i6;UVkITkmc@zz8[4nSS?1
+OV;C;2020.1;71
+31
+!s110 1702146869
+!i10b 1
+!s108 1702146868.000000
+!s90 -reportprogress|300|-93|-work|work|D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd|
+!s107 D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd|
+!i113 1
+o-93 -work work
+tExplicit 1 CvgOpt 0

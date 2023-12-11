@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Tue Nov 28 20:15:30 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : com_32bit
+Top-level Entity Name : com_32bit
+Family : Cyclone IV E
+Total logic elements : 1,638
+    Total combinational functions : 881
+    Dedicated logic registers : 1,311
+Total registers : 1311
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 196,608
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

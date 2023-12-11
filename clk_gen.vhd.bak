@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+use ieee.std_logic_unsigned.all;
+
+---Bloque para la division de la frecuencia de la FPGA DE 50 A 25MHz
+
+entity clk_gen is
+	Port( clk  	: in  std_logic;
+			clk_q	: out std_logic);
+end clk_div;
+
+architecture Behavioral of clk_gen is 
+	signal q: std_logic_vector(0 downto 0); --Señal de un bit
+	
+begin 
+	process(clk)
+	begin
+	
+		if(clk'event and clk ='1') then 
+			q<= q+1;
+		end if;
+	end process;
+	
+	clk_q<= q(0); --25MHz
+	
+end Behavioral;

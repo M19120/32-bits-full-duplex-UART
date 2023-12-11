@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tx_line",
+					"strict" : false
+				},
+				{
+					"name" : "rx2",
+					"strict" : false
+				},
+				{
+					"name" : "tx2",
+					"strict" : false
+				},
+				{
+					"name" : "tx3",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "segmentos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_line",
+					"strict" : false
+				},
+				{
+					"name" : "selector",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "cambio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cambio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "boton",
+					"strict" : false
+				},
+				{
+					"name" : "lee",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

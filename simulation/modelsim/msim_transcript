@@ -1,0 +1,64 @@
+# Reading pref.tcl
+# do com_32bit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:34:28 on Dec 09,2023
+# vcom -reportprogress 300 -93 -work work D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity com_32bit
+# -- Compiling architecture rtl of com_32bit
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(243): Subprogram "TO_INTEGER" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(243): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(244): Subprogram "TO_INTEGER" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(244): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(245): Subprogram "TO_INTEGER" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(245): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(246): Subprogram "TO_INTEGER" is ambiguous.
+#    Feasible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+# ** Error: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(246): (vcom-1600) No feasible entries for subprogram "TO_INTEGER".
+#    Visible subprograms are:
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_UNSIGNED return NATURAL] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1449)
+#       (explicit) NUMERIC_STD.TO_INTEGER[UNRESOLVED_SIGNED return INTEGER] at $MODEL_TECH/../vhdl_src/ieee/mti_numeric_std.vhd(1457)
+# ** Note: D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd(254): VHDL Compiler exiting
+# End time: 11:34:29 on Dec 09,2023, Elapsed time: 0:00:01
+# Errors: 8, Warnings: 0
+# ** Error: D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./com_32bit_run_msim_rtl_vhdl.do line 8
+# D:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {D:/proyectosQuartus/UART/32bits_com_fullduplex/com_32bit.vhd}"

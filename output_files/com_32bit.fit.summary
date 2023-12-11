@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 11 10:26:59 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : com_32bit
+Top-level Entity Name : com_32bit
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 232 / 6,272 ( 4 % )
+    Total combinational functions : 207 / 6,272 ( 3 % )
+    Dedicated logic registers : 143 / 6,272 ( 2 % )
+Total registers : 143
+Total pins : 23 / 92 ( 25 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

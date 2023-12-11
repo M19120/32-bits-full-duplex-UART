@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.std_logic_unsigned.all;
+
+entity tb_com_32bit is 
+end entity;
+
+architecture rtl of tb_com_32bit is 
+entity com_32bit is 
+port( clk: in std_logic;
+		--dir: in std_logic_vector(2 downto 0);
+		--leer,escribir: std_logic;
+		--boton: in std_logic; 
+		rx_line: in std_logic;
+		tx_line: out std_logic;
+		segmentos: out std_logic_vector(6 downto 0);
+		display : out std_logic_vector (7 downto 0)
+	
+);
+end entity;
+begin 
+end rtl; 
